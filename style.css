@@ -1,0 +1,38 @@
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Garamond', serif;
+    text-align: center;
+    padding: 100px 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid #fff;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.8);
+}
+h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.download a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+.download a:hover {
+    background: #fff;
+    color: #000;
+}
